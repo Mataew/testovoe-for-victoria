@@ -1,0 +1,40 @@
+h1{
+  margin-top: 40px;
+  color: white;
+  padding: 5px 0;
+  border-top: 3px solid black;
+}
+.addUserWrapper{
+  display: flex;
+  align-items: center;
+  width: 1100px;
+  justify-content: space-around;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.addUserWrapper select{
+  background-color: rgba(103,0,3,0.69);
+  color: white;
+  padding: 5px;
+}
+
+.addUserWrapper input{
+  background-color: rgba(103,0,3,0.69);
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.addUserWrapper button{
+  border: none;
+  padding: 5px 15px;
+  background-color: green;
+  color: white;
+}
+
+.addUserWrapper button:hover{
+  background-color: rgb(0, 242, 0);
+  transition: 1s;
+}

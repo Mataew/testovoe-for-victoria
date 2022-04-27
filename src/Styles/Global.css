@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  /*background-color: #620967;*/
+  background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1612196629_47-p-fioletovii-fon-na-ves-ekran-56.jpg");
+}
+#root {
+  width: 1200px;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 10px;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 19%, rgba(235,76,255,1) 100%);
+}

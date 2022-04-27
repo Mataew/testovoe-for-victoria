@@ -1,0 +1,35 @@
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.63);
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+}
+
+.user{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 19px;
+}
+
+.user:hover{
+  background-color: rgba(255, 255, 255, 0.39);
+}
+
+.user .id{
+  color: rgba(255, 0, 0, 0.65);
+}
+
+
+.id{
+  flex: 1;
+}
+.email, .name, .payStatus, .link{
+  flex: 2;
+  text-align: center;
+  padding: 15px 5px;
+}
